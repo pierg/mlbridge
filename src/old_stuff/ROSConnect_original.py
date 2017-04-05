@@ -1,6 +1,8 @@
 import websocket
 import thread
 import time
+from abc import ABCMeta, abstractmethod
+
 import json
 
 
